@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__text {
+  font-size: 32px;
+  color: white;
+}
+
+.container__start-button {
+  width: 300px;
+  height: 50px;
+  font-size: 24px;
+}
