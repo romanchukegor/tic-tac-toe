@@ -1,0 +1,23 @@
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover {
+  background-color: bisque;
+}
+
+@media (max-width: 640px) {
+  .square {
+    width: 100px;
+    height: 100px;
+  }
+}
